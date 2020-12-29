@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
     <title>Netflix Clone</title>
-    <script src="https://kit.fontawesome.com/9ca4462ec0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -33,11 +34,11 @@
                     Ela quer se casar por amor. Ele prometeu nunca subir ao altar. A paixão entre os dois está prestes a sair do controle.
                 </p>
                 <div class="buttons">
-                    <button role="button" class="button">
+                    <button role="button" class="button-play">
                         <i class="fas fa-play"></i> <!--https://fontawesome.com/icons/play?style=solid-->
                         Assistir
                     </button>
-                    <button role="button" class="button">
+                    <button role="button" class="button-info">
                         <i class="fas fa-info-circle"></i> <!--https://fontawesome.com/icons/info-circle?style=solid-->
                         Mais informações
                     </button>
@@ -45,5 +46,34 @@
             </div>
         </div>
     </main>
+    <div class="movies-row">
+        <h2 class="netflix-popular">Populares na Netflix</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="/img/modern-family.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="/img/gambito-rainha.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="/img/divergente.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="/img/greys-anatomy.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="/img/little-italy.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="/img/natal-que-vem.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--links JavaScript-->
+    <script src="https://kit.fontawesome.com/9ca4462ec0.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/owl/setup.js"></script>
 </body>
 </html>

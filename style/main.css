@@ -27,9 +27,9 @@ header .container{
 }
 
 header img{
-    height: 40px;
-    width: 110px;
-    margin-right: 15px;
+    height: 30px;
+    width: 80px;
+    margin-right: 40px;
 }
 
 header nav a{
@@ -63,8 +63,8 @@ header nav a:hover{ /*pass the mouse*/
 }
 
 .main-movie img{
-    height: 40px;
-    width: 35px;
+    height: 45px;
+    width: 55px;
 }
 
 .main-movie .series-title{
